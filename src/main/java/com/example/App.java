@@ -12,7 +12,7 @@ public class App
         driver.get("https://bitwebserver.bittechlearn.online:8084/Students/StudentLogin.aspx");
         driver.manage().window().maximize();
         driver.findElement(By.id("txtStudentId")).sendKeys("1BI22CS129");
-     // driver.findElement(By.id("txtPassword")).sendKeys("");
+        driver.findElement(By.id("txtPassword")).sendKeys("g4c4Yy");
         driver.findElement(By.id("btnLogin")).click();
     }
 }
